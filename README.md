@@ -3,7 +3,7 @@ Features
 Responsive Design: The card is optimized for both desktop and mobile viewing.
 Interactive UI: Includes a zoom effect on the profile image and hover effects on buttons.
 Skill Tags: Uses a clean "pill-style" layout to display technical competencies.
-Quick Contact: Easy access to my phone, GitHub, Facebook, and Email.
+Quick Contact: Easy access to Linkdin, Github and Mail.
 
 🛠️ Technologies Used
 HTML5: Used for structuring the content.
