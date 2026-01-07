@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theint Nandar Htet Portfolio</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="button-box" id="logo-click-area" style="cursor: pointer;">
+            <div id="header-particles"></div>
+            <div class="logo">Theint</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-image">
+                <div class="circle-frame">
+                    <img src="cuty.jpg" alt="Theint Nandar">
+                </div>
+            </div>
+            <div class="hero-text">
+
+                <h2>Theint Nandar Htet</h2>
+                <p style="color: black;font-size: 19px;">Aspiring Web Developer with hands-on experience in building
+                    dynamic web
+                    applications
+                    using <b>PHP</b> for robust backend logic and <b>JavaScript</b> for interactive user experiences.
+                    Passionate about solving complex problems and eager to contribute to real-world projects.
+                </p>
+
+                <div class="social-row">
+                    <a href="https://www.linkedin.com/in/theintnandar-htet-9758263a1" target="_blank">
+                        <button class="bttn linkedin"><i class="fa fa-linkedin"></i></button>
+                    </a>
+
+                    <a href="https://github.com/theintnandarhtet698-star" target="_blank">
+                        <button class="bttn github"><i class="fa fa-github"></i></button>
+                    </a>
+
+                    <a href="mailto:theintnandarhtet698@gmail.com">
+                        <button class="bttn gmail"><i class="fa fa-envelope"></i></button>
+                    </a>
+                </div>
+                <a href="Theint-Nandar-Htet-CV.pdf" class="btn" id="cv-btn" download="Theint_Nandar_Htet_CV">Download
+                    CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>About <span class="highlight-text">Me</span></h1>
+                <p style="color: black;">I am a dedicated Computer Science student at Computer University, where I am
+                    developing a strong foundation in
+                    computational theory and software engineering. My academic journey focuses on mastering modern web
+                    technologies and
+                    system architecture to build dynamic applications. I am passionate about applying the logical and
+                    analytical skills
+                    gained through my university studies to solve complex technical problems and create seamless
+                    interactive user
+                    experiences.</p>
+
+                <h2>Technical Skills</h2>
+                <div class="skill-container">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Python</span>
+                    <a href="#services" class="btn-read">View My Projects</a><br><br>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="circle-frame">
+                    <img src="cuty.jpg" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="section-title">My Services</h1>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>PHP</h3>
+                <p style="color: black;font-size: 20px;">Beauty Parlour Appointment System</p>
+                <a href="#" class="btn-read">View Demo</a>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>Javascript</h3>
+                <p style="color: black;font-size: 20px;">Food Order System</p>
+                <a href="#" class="btn-read">View Demo</a>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>C# Project</h3>
+                <p style="color: black;font-size: 15px;"></p>
+                <a href="#" class="btn-read">View Demo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="section-title">Contact Me!</h1>
+        <div class="contact-info-container">
+            <div class="contact-card">
+                <i class="fa fa-location-arrow"></i>
+                <h3>Address</h3>
+                <p style="color: black;">Pyay,Bago(West)</p>
+            </div>
+            <div class="contact-card">
+                <i class="fa fa-envelope"></i>
+                <h3>Email</h3>
+                <p style="color: black;">theintnandarhtet698@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="fa fa-phone"></i>
+                <h3>Phone</h3>
+                <p style="color: black;">+959-698769877</p>
+                <p style="color: black;">+959-764345564</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+
+    <script>
+        tsParticles.load("header-particles", {
+            particles: {
+                number: { value: 15 },
+                shape: { type: ["circle", "square"] },
+                opacity: { value: 0.6, random: true },
+                size: { value: { min: 2, max: 6 } },
+                move: { enable: true, speed: 1.5, direction: "top", outModes: "out" },
+                color: { value: "#ffffff" }
+            }
+        });
+        var typed = new Typed(".typing-text", {
+            strings: ["Frontend Developer", "Web Designer", "Blogger"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+        function createBurst(e) {
+            for (let i = 0; i < 8; i++) {
+                const emoji = document.createElement('span');
+                emoji.innerHTML = '❤️';
+                emoji.className = 'emoji-burst';
+                const offsetX = (Math.random() - 0.5) * 150;
+                const offsetY = (Math.random() - 0.5) * 150;
+                emoji.style.left = e.clientX + 'px';
+                emoji.style.top = e.clientY + 'px';
+                emoji.style.setProperty('--x', `${offsetX}px`);
+                emoji.style.setProperty('--y', `${offsetY}px`);
+                document.body.appendChild(emoji);
+                setTimeout(() => emoji.remove(), 1000);
+            }
+        }
+        document.getElementById('logo-click-area').addEventListener('click', createBurst);
+        document.getElementById('cv-btn').addEventListener('click', createBurst);
+    </script>
+    <footer>
+        <p class="copyright">© 2026 All Rights Reserved. Built with ❤️ at Computer University.</p>
+    </footer>
+</body>
+
+</html>
