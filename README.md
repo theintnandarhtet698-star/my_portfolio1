@@ -1,4 +1,4 @@
-This is a modern, responsive digital business card built to showcase my profile, technical skills, and educational background. It is designed to provide a professional first impression for internship opportunities.
+I wrote this project during my second year, first semester.This is a modern, responsive digital business card built to showcase my profile, technical skills, and educational background. It is designed to provide a professional first impression for internship opportunities.
 Features
 Responsive Design: The card is optimized for both desktop and mobile viewing.
 Interactive UI: Includes a zoom effect on the profile image and hover effects on buttons.
